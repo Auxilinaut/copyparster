@@ -1,0 +1,27 @@
+{
+  "name": "copyparster",
+  "version": "1.0.0",
+  "description": "This project is aiming to be a reliable PDF to Excel converter with reliable output according to customized input.",
+  "main": "server.js",
+  "dependencies": {
+    "dropzone": "^4.3.0",
+    "express": "^4.14.0",
+    "multer": "^1.2.0",
+    "pdf2json": "^1.1.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Auxilinaut/copyparster.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Auxilinaut/copyparster/issues"
+  },
+  "homepage": "https://github.com/Auxilinaut/copyparster#readme"
+}
